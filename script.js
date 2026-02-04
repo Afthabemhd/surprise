@@ -50,8 +50,8 @@ yesBtn.addEventListener("click", () => {
         margin-top:40vh;
         font-size:30px;
         color:#ff4d6d;">
-        Yaaay Sivakami! ❤️🥰<br>
-        Love always wins 💖
+        Yay! ❤️🥰<br>
+        I knew you'd say yes! 💖
       </h1>
     `;
   }, 1200);

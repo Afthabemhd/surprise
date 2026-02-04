@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  background: #fff;
+  padding: 35px 25px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  width: 90%;
+  max-width: 340px;
+}
+
+h1 {
+  color: #ff4d6d;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.buttons {
+  position: relative;
+  height: 100px;
+}
+
+button {
+  padding: 14px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#yesBtn {
+  background: #ff4d6d;
+  color: #fff;
+}
+
+#noBtn {
+  background: #e0e0e0;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.note {
+  margin-top: 25px;
+  font-style: italic;
+  color: #666;
+}
+
+/* 🎉 Confetti */
+.confetti {
+  position: fixed;
+  top: -10px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 0.9;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+  }
+}
